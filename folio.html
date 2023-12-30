@@ -12,30 +12,108 @@
       .me {
         display: block;
         width: 200px;
-        position: fixed;
+        position: absolute;
         top: 50px;
         right: 80px;
       }
+      ul {
+        list-style: none;
+        text-align: center;
+      }
+      p {
+        text-align: center;
+      }
+      footer {
+        text-align: center;
+      }
+      .container {
+        margin: 0 auto;
+        display: block;
+      }
+      .page3 {
+        margin: 0 auto;
+        width: 800px;
+        height: 600px;
+        display: block;
+        line-height: 30px;
+      }
+      .page2 {
+        margin: 0 auto;
+        width: 800px;
+        height: 600px;
+        display: block;
+        line-height: 30px;
+      }
+      .page1 {
+        margin: 0 auto;
+        width: 800px;
+        height: 600px;
+        display: block;
+        line-height: 30px;
+      }
     </style>
   </head>
-  <header>
-    <button>home</button> <button>about</button> <button>projects</button>
-    <button>contact</button>
-  </header>
-  <body>
-    <h1>
-      Alesia Shope <br />
-      Jr. Web Devloper
-      <img
-        class="me"
-        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/107/846/original/Untitled_design-4.png?1703044959"
-        alt=""
-      />
-    </h1>
-    <footer>
-      This page was coded by
-      <a href="https://github.com/avsangel"> Alesia Shope</a> and open sourced
-      on <a href="https://github.com/avsangel?tab=repositories"> github</a>
-    </footer>
-  </body>
+  <div class="container">
+    <header>
+      <button>home</button> <button>about</button> <button>projects</button>
+      <button>contact</button>
+    </header>
+    <body>
+      <h1>
+        Alesia Shope <br />
+        Jr. Web Devloper
+        <img
+          class="me"
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/107/846/original/Untitled_design-4.png?1703044959"
+          alt=""
+        />
+      </h1>
+      <hr />
+      <p>
+        Single mom trying to turn this dream of coding into a reality. my
+        hobbies include crafting, gaming, biking, reading, and watching hockey
+      </p>
+      <hr />
+      <ul>
+        projects
+        <li>
+          Tamales
+          <img
+            class="page1"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/108/736/original/Screenshot_2023-12-30_at_4.00.14_PM.png?1703973641"
+            alt=""
+          />
+          <button>
+            <a href="https://mylovetamales.netlify.app">launch project</a>
+          </button>
+        </li>
+        <li>
+          crafting
+          <img
+            class="page2"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/108/734/original/Screenshot_2023-12-30_at_3.53.20_PM.png?1703973229"
+            alt=""
+          />
+          <button>
+            <a href="https://my-crafts.netlify.app">launch project</a>
+          </button>
+        </li>
+        <li>
+          weather page
+          <img
+            class="page3"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/108/730/original/Screenshot_2023-12-17_at_8.34.24_PM.png?1703971126"
+            alt=""
+          /><button>
+            <a href="https://weeksevenproject.netlify.app">launch project</a>
+          </button>
+        </li>
+      </ul>
+      <footer>
+        This page was coded by
+        <a href="https://github.com/avsangel"> Alesia Shope</a> and open sourced
+        on <a href="https://github.com/avsangel?tab=repositories"> github</a>
+      </footer>
+    </body>
+  </div>
 </html>
